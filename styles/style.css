@@ -1,0 +1,299 @@
+/* Common style */
+*{
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    
+    font-family: 'Manrope', sans-serif;
+}
+/* Menu bar style start */
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    padding-top: 64px;
+}
+.menu_header h3{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.menu .menu-item a{
+    text-decoration: none;
+    padding-right: 70px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+.banner_text{
+    margin: 100px 480px 0 480px;
+    text-align: center;
+}
+.banner_text h3{
+    font-weight: 700;
+    font-size: 64px;
+    padding-bottom: 20px;
+}
+.banner_text p{
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.banner_text button{
+    background-color: #FF900E;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+.banner_img img{
+    width: 1122px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-bottom: 45px;
+    border-radius: 8px;
+}
+/* Menu bar style End */
+
+/* Quick list of Our Features style start */
+.main{
+    grid-area: main;
+}
+.foure_img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: stretch;
+    gap: 5px;
+    width: 300px;
+    height: 150px;
+}
+
+.feature_list{
+    margin-top: 85px;
+    margin-left: 200px;
+    margin-bottom: 250px;
+}
+.quick_list{
+    margin-left: 755px;
+    margin-right: 174px;
+}
+.quick_list h3{
+    margin-bottom: 97px;
+}
+.quick_list .gray{
+    font-weight: 700;
+    font-size: 45px;
+    color: #727272;
+}
+.quick_list .black{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.quick_list .orange{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+.quick_list.list_describe{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+.quick_list button{
+    background-color: #FF900E;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+/* Quick list of Our Features style End */
+
+/* feature-version style start */
+.feature-version{
+    height: 700px;
+}
+.feature-version{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.feature-version .feature-designer-img img{
+    width: 540px;
+    height: 730px;
+}
+
+.feature-version .feature-designer-img .experience {
+    background-color: #FF900E;
+    color: #ffff;
+    text-align: center;
+    padding: 36px 46px;
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: -100px;
+    margin-left: -60px;
+}
+.feature-version .feature-designer-img .experience h1{
+    font-size: 45px;
+    margin: 0px;
+}
+.feature-version .feature-designer-img .experience p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.feature-version{
+    margin-left: 170px;
+    margin-right: 174px;
+    margin-bottom: 130px;
+}
+
+.feature-version .feature_info h3{
+    color: #131313;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Work Sans';
+}
+
+.feature-version .feature_info p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.design_info{
+    margin: 10px 18px;
+}
+.design_info{
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.feature_info .left-orange{
+    color: #131313;
+    font-weight: 800;
+    font-size: 60px;
+    border-left: 3px solid #FF900E;
+}
+.left-orange{
+    width: 148px;
+    padding: 10px;
+    margin-bottom: 24px;
+}
+/* feature-version style End */
+
+/* Some Facts style Start */
+.some-facts{
+    margin-top: 220px;
+    margin-left: 187px;
+    margin-right: 174px;
+    margin-bottom: 130px;
+}
+.project-sammary{
+    margin: 0 33px 180px;
+}
+.project-sammary{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+.project-sammarys{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 35px 45px 35px 59px;
+    text-align: center;
+}
+.some-facts .some-fact-details h3{
+    font-weight: 700;
+    font-family: 'Work Sans';
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.some-facts .some-fact-details p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 100px;
+    width: 550px;
+}
+.project-sammary .project-sammarys h3{
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+}
+.project-sammary .project-sammarys p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+/* Some Facts style End */
+
+/* Our Sponspors style start */
+.sponspors{
+    margin: 0 auto;
+    margin-bottom: 180px;
+    max-width: 1146px;
+}
+.sponspors .sponspore-title{
+    text-align: center;
+   margin-bottom: 63px;
+}
+
+.sponspore-title h1{
+    font-size: 35px;
+}
+.sponspore-title p{
+    max-width: 500px;
+    color: #727272;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.sponspore-company{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 80px;
+}
+.sponspore-company .sponspore-companys img{
+    width: 153.33px;
+    height: 50px;
+    filter: grayscale(1);
+}
+/* Our Sponspors style End */
+
+/* footer style start */
+ .footer{
+    margin-left: 187px;
+    margin-right: 174px;
+    height: 100px;
+    background-color: #FFF4E7;
+    margin-bottom: 228px;
+ }
+ .footer .copy-right p{
+    text-align: center;
+    padding-top: 38px;
+    padding-bottom: 38px;
+ }
+/* footer style end */
+
+/* Media Quary Mobile Phone */
+@media screen and (max-width: 576px){
+    .menu-item{
+        flex-direction: row;
+    }
+    .banner_img img{
+        width: 370px;
+        height: 242px;
+    }
+}
